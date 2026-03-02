@@ -3,14 +3,12 @@ package com.example.inventory.ui.item
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import com.example.inventory.data.ItemsRepository
-
 /**
  * ViewModel to retrieve, update and delete an item from the [ItemsRepository]'s data source.
  */
 class ItemDetailsViewModel(
     savedStateHandle: SavedStateHandle
 ) : ViewModel() {
-
     private val itemId: Int = checkNotNull(savedStateHandle[ItemDetailsDestination.itemIdArg])
 
     companion object {
