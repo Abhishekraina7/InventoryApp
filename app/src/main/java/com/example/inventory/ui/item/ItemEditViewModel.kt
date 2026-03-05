@@ -34,6 +34,17 @@ class ItemEditViewModel(
                 .toItemUiState(true)
             }
         }
+    //this function helps in showing the changes when you type something new in the textfields
+    fun updateUiState(itemDetails: ItemDetails){
+       itemUiState = ItemUiState(itemDetails = itemDetails, isEntryValid = validateInput(itemDetails))
+    }
+
+    suspend fun updateItem(){
+        if(validateInput(itemUiState.itemDetails)){
+            itemsRepository.update(itemUiState.itemDetails.toItem())
+        }
+    }
+
     private fun validateInput(uiState: ItemDetails = itemUiState.itemDetails): Boolean {
         return with(uiState) {
             name.isNotBlank() && price.isNotBlank() && quantity.isNotBlank()
