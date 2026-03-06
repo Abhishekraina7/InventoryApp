@@ -13,7 +13,7 @@ import com.example.inventory.ui.item.ItemEditViewModel
 import com.example.inventory.ui.item.ItemEntryViewModel
 
 /**
- * Provides Factory to create instance of ViewModel for the entire Inventory app
+ * Provides Factory to create instance of ViewModel for the entire Inventory application
  */
 object AppViewModelProvider {
     val Factory = viewModelFactory {
