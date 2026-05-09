@@ -52,11 +52,13 @@ The app is designed with modern Android development tools:
 
 Here are some sneak peeks into the app's features:
 
-| Home / Dashboard 🏠 | Add / Edit Item ✍️ | Item Details 📊 |
-|:---:|:---:|:---:|
-| <img width="250" alt="Home Screen" src="https://via.placeholder.com/250x500?text=Home+Screen+Image" /> | <img width="250" alt="Add Item Screen" src="https://via.placeholder.com/250x500?text=Add+Item+Image" /> | <img width="250" alt="Item Details Screen" src="https://via.placeholder.com/250x500?text=Item+Details+Image" /> |
-
-*(Note: Replace the placeholder image URLs above with your actual screenshot URLs)*
+| Home / Dashboard 🏠 |
+|:---:|
+| <img width="300" height="600" alt="image" src="https://github.com/user-attachments/assets/71ebd20f-f591-4e37-900f-32b68b92fddc" />
+| Add / Edit Item ✍️ |
+| <img width="300" height="900" alt="image" src="https://github.com/user-attachments/assets/23f02208-a88f-423a-a57e-131ba20024bc" />|
+| Item Details 📊 |
+|<img width="300" height="900" alt="image" src="https://github.com/user-attachments/assets/bbe387cf-1c52-47a6-af6b-bf81964fdbee" />|
 
 --- 
 
