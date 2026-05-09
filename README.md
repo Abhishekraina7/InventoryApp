@@ -1,6 +1,7 @@
 <p align="center">
   <!-- Insert your App Icon/Logo here -->
-  <img width="150" height="150" alt="app_logo" src="https://via.placeholder.com/150?text=App+Icon" />
+  <img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/f787a2e7-2651-45dc-9983-a520b433c695" />
+
 </p>
 
 <h1 align="center">📦 InventoryApp 📋</h1>
